@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Сапёр</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <h1>Игра сапёр</h1>
+
+  <h2>Выберите уровень сложности</h2>
+
+  <div class="complexity">
+    <button class="complexity__item  complexity__item--active" data-complexity="easy">Низкая</button>
+    <button class="complexity__item"  data-complexity="middle">Средняя</button>
+    <button class="complexity__item"  data-complexity="hard">Высокая</button>
+  </div>
+
+  <button class="start-game">Начать игру</button>
+
+  <div class="popup-victory">
+    <h2>Вы выиграли</h2>
+  </div>
+  <div class="popup-loose">
+    <h2>Вы проиграли</h2>
+  </div>
+
+  <div id="container"></div>
+
+
+  <script src="js/grid.js"></script>
+  <script src="js/game.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/index.js"></script>
+</body>
+</html>

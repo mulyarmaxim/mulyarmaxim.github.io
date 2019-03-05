@@ -1,0 +1,173 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-icon-clock {
+    width: 36px;
+    height: 53px;
+    background-position: -5px -5px;
+}
+
+.sprite-icon-equalizer {
+    width: 44px;
+    height: 45px;
+    background-position: -51px -5px;
+}
+
+.sprite-icon-facebook {
+    width: 16px;
+    height: 16px;
+    background-position: -105px -5px;
+}
+
+.sprite-icon-facebook--hover {
+    width: 16px;
+    height: 16px;
+    background-position: -131px -5px;
+}
+
+.sprite-icon-google {
+    width: 16px;
+    height: 16px;
+    background-position: -157px -5px;
+}
+
+.sprite-icon-google--hover {
+    width: 16px;
+    height: 16px;
+    background-position: -183px -5px;
+}
+
+.sprite-icon-home {
+    width: 47px;
+    height: 47px;
+    background-position: -105px -31px;
+}
+
+.sprite-icon-home-2 {
+    width: 49px;
+    height: 45px;
+    background-position: -5px -88px;
+}
+
+.sprite-icon-instagram {
+    width: 16px;
+    height: 16px;
+    background-position: -162px -31px;
+}
+
+.sprite-icon-instagram--hover {
+    width: 16px;
+    height: 16px;
+    background-position: -162px -57px;
+}
+
+.sprite-icon-libra {
+    width: 50px;
+    height: 50px;
+    background-position: -64px -88px;
+}
+
+.sprite-icon-linkedin {
+    width: 16px;
+    height: 16px;
+    background-position: -162px -83px;
+}
+
+.sprite-icon-linkedin--hover {
+    width: 16px;
+    height: 16px;
+    background-position: -124px -109px;
+}
+
+.sprite-icon-mail {
+    width: 16px;
+    height: 14px;
+    background-position: -150px -109px;
+}
+
+.sprite-icon-marker {
+    width: 9px;
+    height: 15px;
+    background-position: -188px -31px;
+}
+
+.sprite-icon-ok {
+    width: 12px;
+    height: 9px;
+    background-position: -188px -56px;
+}
+
+.sprite-icon-phone {
+    width: 13px;
+    height: 14px;
+    background-position: -188px -75px;
+}
+
+.sprite-icon-portfolio {
+    width: 48px;
+    height: 40px;
+    background-position: -150px -133px;
+}
+
+.sprite-icon-purse {
+    width: 41px;
+    height: 33px;
+    background-position: -209px -5px;
+}
+
+.sprite-icon-row {
+    width: 11px;
+    height: 8px;
+    background-position: -210px -48px;
+}
+
+.sprite-icon-schedule {
+    width: 54px;
+    height: 28px;
+    background-position: -5px -183px;
+}
+
+.sprite-icon-setting {
+    width: 44px;
+    height: 43px;
+    background-position: -208px -99px;
+}
+
+.sprite-icon-temperature {
+    width: 34px;
+    height: 64px;
+    background-position: -69px -152px;
+}
+
+.sprite-icon-twitter {
+    width: 16px;
+    height: 16px;
+    background-position: -231px -48px;
+}
+
+.sprite-icon-twitter--big {
+    width: 43px;
+    height: 35px;
+    background-position: -208px -152px;
+}
+
+.sprite-icon-twitter--hover {
+    width: 16px;
+    height: 16px;
+    background-position: -5px -152px;
+}
+
+.sprite-icon-youtube {
+    width: 16px;
+    height: 16px;
+    background-position: -31px -152px;
+}
+
+.sprite-icon-youtube--hover {
+    width: 16px;
+    height: 16px;
+    background-position: -113px -152px;
+}

@@ -1,0 +1,251 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-icon-american-express {
+    width: 64px;
+    height: 64px;
+    background-position: -5px -5px;
+}
+
+.sprite-icon-american-express--hover {
+    width: 64px;
+    height: 64px;
+    background-position: -79px -5px;
+}
+
+.sprite-icon-cart {
+    width: 15px;
+    height: 12px;
+    background-position: -153px -5px;
+}
+
+.sprite-icon-clock {
+    width: 12px;
+    height: 12px;
+    background-position: -178px -5px;
+}
+
+.sprite-icon-discover {
+    width: 64px;
+    height: 64px;
+    background-position: -200px -5px;
+}
+
+.sprite-icon-discover--hover {
+    width: 64px;
+    height: 64px;
+    background-position: -5px -79px;
+}
+
+.sprite-icon-facebook {
+    width: 16px;
+    height: 16px;
+    background-position: -274px -5px;
+}
+
+.sprite-icon-facebook--hover {
+    width: 16px;
+    height: 16px;
+    background-position: -153px -31px;
+}
+
+.sprite-icon-google {
+    width: 16px;
+    height: 16px;
+    background-position: -274px -31px;
+}
+
+.sprite-icon-google--hover {
+    width: 16px;
+    height: 16px;
+    background-position: -153px -57px;
+}
+
+.sprite-icon-instagramm {
+    width: 16px;
+    height: 16px;
+    background-position: -274px -57px;
+}
+
+.sprite-icon-instagramm--hover {
+    width: 16px;
+    height: 16px;
+    background-position: -79px -83px;
+}
+
+.sprite-icon-jcb {
+    width: 64px;
+    height: 64px;
+    background-position: -179px -79px;
+}
+
+.sprite-icon-jcb--hover {
+    width: 64px;
+    height: 64px;
+    background-position: -5px -153px;
+}
+
+.sprite-icon-logo--decoration {
+    width: 87px;
+    height: 62px;
+    background-position: -79px -153px;
+}
+
+.sprite-icon-mail {
+    width: 14px;
+    height: 11px;
+    background-position: -105px -83px;
+}
+
+.sprite-icon-marker {
+    width: 9px;
+    height: 13px;
+    background-position: -179px -31px;
+}
+
+.sprite-icon-master-card {
+    width: 64px;
+    height: 64px;
+    background-position: -176px -153px;
+}
+
+.sprite-icon-master-card--hover {
+    width: 64px;
+    height: 64px;
+    background-position: -5px -227px;
+}
+
+.sprite-icon-menu {
+    width: 16px;
+    height: 13px;
+    background-position: -129px -83px;
+}
+
+.sprite-icon-menu-item {
+    width: 13px;
+    height: 13px;
+    background-position: -155px -83px;
+}
+
+.sprite-icon-phone {
+    width: 12px;
+    height: 12px;
+    background-position: -253px -83px;
+}
+
+.sprite-icon-pinterest {
+    width: 16px;
+    height: 16px;
+    background-position: -275px -83px;
+}
+
+.sprite-icon-pinterest--hover {
+    width: 16px;
+    height: 16px;
+    background-position: -79px -109px;
+}
+
+.sprite-icon-rss {
+    width: 16px;
+    height: 16px;
+    background-position: -105px -109px;
+}
+
+.sprite-icon-rss--hover {
+    width: 16px;
+    height: 16px;
+    background-position: -131px -109px;
+}
+
+.sprite-icon-search {
+    width: 14px;
+    height: 14px;
+    background-position: -253px -109px;
+}
+
+.sprite-icon-slider-next {
+    width: 5px;
+    height: 9px;
+    background-position: -179px -57px;
+}
+
+.sprite-icon-slider-prev {
+    width: 6px;
+    height: 9px;
+    background-position: -157px -109px;
+}
+
+.sprite-icon-star {
+    width: 15px;
+    height: 14px;
+    background-position: -277px -109px;
+}
+
+.sprite-icon-star--empty {
+    width: 15px;
+    height: 14px;
+    background-position: -253px -133px;
+}
+
+.sprite-icon-stripe {
+    width: 64px;
+    height: 64px;
+    background-position: -79px -227px;
+}
+
+.sprite-icon-stripe--hover {
+    width: 64px;
+    height: 64px;
+    background-position: -153px -227px;
+}
+
+.sprite-icon-twitter {
+    width: 16px;
+    height: 16px;
+    background-position: -278px -133px;
+}
+
+.sprite-icon-twitter--hover {
+    width: 16px;
+    height: 16px;
+    background-position: -250px -159px;
+}
+
+.sprite-icon-vimeo {
+    width: 16px;
+    height: 16px;
+    background-position: -276px -159px;
+}
+
+.sprite-icon-vimeo--hover {
+    width: 16px;
+    height: 16px;
+    background-position: -250px -185px;
+}
+
+.sprite-icon-visa {
+    width: 64px;
+    height: 64px;
+    background-position: -227px -227px;
+}
+
+.sprite-icon-visa--hover {
+    width: 64px;
+    height: 64px;
+    background-position: -300px -5px;
+}
+
+.sprite-icon-youtube {
+    width: 16px;
+    height: 16px;
+    background-position: -301px -79px;
+}
+
+.sprite-icon-youtube--hover {
+    width: 16px;
+    height: 16px;
+    background-position: -327px -79px;
+}

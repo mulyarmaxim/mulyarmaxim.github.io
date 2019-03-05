@@ -1,0 +1,126 @@
+body {
+  padding: 20px;
+  background: #fff;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+table {
+  border: 1px solid #000000;
+}
+
+td {
+  position: relative;
+
+  padding: 0;
+  margin: 0;
+  border: 1px solid #000000;
+
+  font-weight: 700;
+}
+
+.mine {
+  background: url('../img/icon-mine.svg') no-repeat center;
+  background-size: cover;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  margin: 0;
+  border: none;
+
+  cursor: pointer;
+  background: #ffffff;
+}
+
+.cell {
+
+}
+
+.cell::before {
+  content: '';
+
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+
+  background: orange;
+}
+
+.flag::before {
+  background: orange url('../img/icon-flag.svg');
+  background-size: cover;
+}
+
+.cell:hover::before {
+  box-shadow: inset 0 0 15px rgba(0,0,0, 0.8);
+}
+
+.complexity {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  margin-bottom: 40px;
+}
+
+.complexity__item {
+  padding: 0;
+  margin: 0;
+  border: 1px solid orange;
+
+  width: 140px;
+  height: 50px;
+}
+
+.complexity__item:hover,
+.start-game:hover {
+  box-shadow: inset 0 0 10px rgba(0,0,0, .4);
+}
+
+.complexity__item--active {
+  box-shadow: 5px 5px 20px rgba(0,255,0, 0.8),
+              -5px -5px 20px rgba(0,255,0, 0.8);
+}
+
+.complexity__item--active:hover {
+  box-shadow: 5px 5px 20px rgba(0,255,0, 0.8),
+              -5px -5px 20px rgba(0,255,0, 0.8);
+}
+
+.start-game {
+  width: 500px;
+  height: auto;
+  padding: 10px 0;
+  border: 1px solid orange;
+  margin-bottom: 40px;
+}
+
+.popup-victory,
+.popup-loose {
+  position: absolute;
+  left: 40px;
+  right: 40px;
+  top: 40px;
+
+  display: none;
+
+  font-size: 40px;
+  color: green;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.popup-loose {
+  color: red;
+}
